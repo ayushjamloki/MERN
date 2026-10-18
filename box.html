@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        height: 1000px;
+        background-color: aqua;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(222, 162, 162);
+      }
+      .box1 {
+        height: 200px;
+        width: 200px;
+        background-color: rebeccapurple;
+      }
+      .box3 {
+        height: 200px;
+        width: 400px;
+        background-color: rgb(15, 193, 134);
+        padding: 15px;
+        margin: 0 50px;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 1000;
+      }
+      p {
+        padding: 20px;
+        color: azure;
+      }
+      .o-h {
+        overflow: hidden;
+      }
+      .box4 {
+        height: 200px;
+        width: 200px;
+        background-color: chocolate;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box o-h">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quo
+          aliquam, voluptates ullam eveniet mollitia!
+        </p>
+      </div>
+      <div class="box1 o-h">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quo
+          aliquam, voluptates ullam eveniet mollitia!
+        </p>
+      </div>
+      <div class="box3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam
+          nesciunt dicta dolores magni animi quisquam accusamus tempora, atque
+          id omnis quidem est eos quas delectus assumenda dolorum placeat
+          distinctio.
+        </p>
+      </div>
+
+      <div class="doubleBox">
+        <div class="box4">
+          <form>
+            <div>
+              <label name="emial">Email ID:</label>
+              <input type="email" placeholder="your@gmail.com" />
+            </div>
+            <div>
+              <label name="pass">Password:</label>
+              <input type="password" placeholder="Enter your Password" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
