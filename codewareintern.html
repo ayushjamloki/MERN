@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .detailsform {
+        box-sizing: border-box;
+        height: 500px;
+        width: 600px;
+        position: relative;
+        left: 550px;
+        top: 150px;
+        box-shadow: 0px 0px 3px #0000005e;
+        border-radius: 20px;
+      }
+      .data {
+        position: relative;
+        left: 10px;
+        top: 15px;
+        padding: 40px;
+        margin: 23px;
+      }
+      input {
+        height: 55px;
+        width: 450px;
+      }
+      .option {
+        height: 55px;
+        width: 450px;
+      }
+      label {
+        margin: 8px;
+        box-sizing: border-box;
+      }
+    </style>
+    <body>
+      <div class="container">
+        <div class="detailsform">
+          <form class="data">
+            <label>full Name</label>
+            <div class="name">
+              <input type="text" placeholder="e.g Rahul Sharma" />
+            </div>
+            <label>Phone Number</label>
+            <div class="name">
+              <input type="number" placeholder="10-digit Mobile Number" />
+            </div>
+            <label>Select Course</label>
+            <div class="name">
+              <select class="option">
+                <option value="">Mern</option>
+                <option value="">Java</option>
+                <option value="">Pyhton</option>
+                <option value="">React Js</option>
+                <option value="">Node Js</option>
+                <option value="">Full Stack</option>
+                <option value="">DSA</option>
+              </select>
+            </div>
+            <label>City(Optional)</label>
+            <div class="name">
+              <input type="text" placeholder="e.g Dehradune" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>

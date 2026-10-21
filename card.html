@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f6f5f2;
+      }
+      .container {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.502);
+        padding: 29px;
+        border-radius: 20px;
+        background-color: white;
+      }
+
+      .name {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+      }
+      .name input {
+        padding: 10px;
+        border-radius: 7px;
+        padding-left: 24px;
+        color: grey;
+      }
+      .name select {
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .detailsform {
+        margin: 12px;
+        height: 350px;
+        width: 350px;
+      }
+      .btn {
+        padding: 14px;
+        border-radius: 10px;
+        margin-top: 7px;
+        position: relative;
+        top: 28px;
+        background-color: #d34c34;
+        color: #fff;
+        font-weight: bolder;
+        font-size: medium;
+      }
+
+      .name h5 {
+        margin: 38px;
+        font-weight: 100;
+        position: relative;
+        left: 10px;
+        color: gray;
+      }
+
+      .name label {
+        position: relative;
+        top: 8px;
+        left: 4px;
+        font-weight: lighter;
+      }
+    </style>
+    <body>
+      <div class="container">
+        <div class="detailsform">
+          <form class="data">
+            <div class="name">
+              <label>Full Name</label>
+              <input type="text" placeholder="e.g Rahul Sharma" />
+            </div>
+            <div class="name">
+              <label>Phone Number</label>
+              <input type="number" placeholder="10-digit Mobile Number" />
+            </div>
+            <div class="name">
+              <label>Course intrest</label>
+              <select class="option">
+                <option value="">Select a course...</option>
+                <option value="">Mern</option>
+                <option value="">Java</option>
+                <option value="">Pyhton</option>
+                <option value="">React Js</option>
+                <option value="">Node Js</option>
+                <option value="">Full Stack</option>
+                <option value="">DSA</option>
+              </select>
+            </div>
+            <div class="name">
+              <label>City(Optional)</label>
+              <input type="text" placeholder="e.g Dehradun" />
+            </div>
+          </form>
+          <div class="name">
+            <button class="btn">Book My Free Counselling Session</button>
+          </div>
+          <div class="name">
+            <h5>🔒 Your info is safe with us. No spam, ever.</h5>
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>

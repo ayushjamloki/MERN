@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        height: 500px;
+        box-sizing: border-box;
+        background-color: rgb(26, 23, 65);
+        width: 1200px;
+      }
+      .box {
+        height: 300px;
+        width: 250px;
+        position: relative;
+        box-shadow: 0px 0px 3px #0000005e;
+        left: 400px;
+        top: 100px;
+        border-radius: 15px;
+        background-color: rgb(161, 200, 237);
+      }
+      label {
+        padding-left: 2px;
+        position: relative;
+        top: 23px;
+        font-family: "Times New Roman", Times, serif;
+        width: 100%;
+      }
+
+      h3 {
+        position: relative;
+        left: 72px;
+        top: 16px;
+        color: rgb(29, 74, 209);
+      }
+      h5 {
+        position: relative;
+        padding-top: 8px;
+        left: 55px;
+        top: 11px;
+        left: 61px;
+        font-weight: lighter;
+        color: gray;
+      }
+      input {
+        border-radius: 1px solid gray;
+        width: 225px;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 52px;
+        position: relative;
+        top: 23px;
+      }
+      .btn {
+        color: aliceblue;
+        background-color: rgb(80, 80, 243);
+        position: relative;
+        left: 54px;
+        top: 41px;
+        width: 136px;
+        border-radius: 2px;
+      }
+      .inputbox {
+        position: relative;
+        left: 10px;
+        top: 15px;
+        margin-bottom: 30px;
+      }
+      h6 {
+        position: relative;
+        top: 48px;
+        left: 95px;
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h3>Login Page</h3>
+        <h5>Register if not Login</h5>
+        <form>
+          <div class="inputbox">
+            <label id="username">User Name</label>
+            <input type="text" placeholder="your username" required />
+          </div>
+          <div class="inputbox">
+            <label id="password">Password</label>
+            <input type="password" placeholder="your password" required />
+          </div>
+        </form>
+        <button class="btn">Login</button>
+        <h6><a href="#registerpage">Register Here</a></h6>
+      </div>
+    </div>
+  </body>
+</html>
