@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <style>
+      * {
+        padding: 0;
+        margin-top: 0;
+      }
+      header {
+        height: 100vh;
+        /* background-color: rgba(100, 100, 100, 1); */
+        background-image: url(https://images.unsplash.com/photo-1509226704106-8a5a71ffbfa4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+      }
+       nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        padding: 10px 20px;
+       
+      }
+       a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+      }
+       header .maintext {
+       color: white;
+       font-size: 50;
+       padding-left: 250px;
+       padding-top: 50px;
+      }
+      header .container{
+        background-color: black;
+           width: 900px;
+    height: 85px;
+    position: relative;
+    left: 83px;
+    top: 1px;
+    border-radius: 10px;
+    position: relative;
+   
+  
+}
+
+  form{
+    width: 850px;
+    height: 60px;
+    display: inline-flex;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+    border-radius: 10px;
+    left: 15px;
+    top: 7px; 
+   
+  }
+  form .inp{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+   
+  }
+  form .inp input {
+  outline: none; 
+  border: 1px solid #cccccc00; 
+}
+
+ #btn{
+    width: 130px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    padding: 6px;
+    margin-left: 10px;
+ }
+ #btn .btn-txt{
+    color: white;
+    font-weight: bold;
+    padding-top: 0px;
+    position: relative;
+    top: 5px;
+}
+.container .inp .lbl{
+  color: black;
+  font-weight: bold;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>TourTravel</h1>
+        <div class="links">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Packages</a>
+          <a href="">Trending</a>
+        </div>
+      </nav>
+      <h1 class="maintext">Exploring World with Us!</h1>
+      <div class="container">
+        <form >
+            <div class="inp">
+            <label class="lbl">Where You Wnat To Go ?</label>
+            <input type="text" placeholder="Zip Code/Country">
+            </div>
+            <div class="inp">
+            <label class="lbl">Check In</label>
+            <input type="text" placeholder="Check In">
+            </div>
+            <div class="inp">
+            <label class="lbl">Check <Output></Output></label>
+            <input type="text" placeholder="Check Out">
+            </div>
+            <div class="inp">
+            <label class="lbl">How Many Are You ?</label>
+            <input type="text" placeholder="Mention Guests">
+            </div>
+            <div id="btn">
+                <span class="btn-txt">Check Availability</span>
+            </div>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
