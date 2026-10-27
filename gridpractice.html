@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container{
+                 display: grid;
+                 grid-template-rows: repeat(3, 100px);
+                 gap: 5px 10px;
+                 grid-template-columns: repeat(4, 1fr);
+                 background-color: aquamarine;
+            }
+            .subcontainer1{
+                 background-color: rgb(43, 235, 18);
+                 grid-area: 1/1/4/2;
+            }
+            .subcontainer2{
+                 background-color: rgb(43, 235, 18);
+                  grid-area: 1/2/2/4;
+            }
+            
+            .subcontainer3{
+                 background-color:rgb(43, 235, 18);
+                  grid-area: 2/4/4/5;
+            }
+            .subcontainer4{
+                 background-color: rgb(217, 27, 27);
+                  grid-area: 1/4/2/5;
+            }
+            .subcontainer5{
+                 background-color:  rgb(217, 27, 27);
+                  grid-area: 3/2/4/3;
+            }
+            .subcontainer6{
+                 background-color: rgb(217, 27, 27);
+                  grid-area: 2/3/3/4;
+            }
+            .subcontainer7{
+                 background-color: rgb(202, 209, 16);
+            }
+            .subcontainer8{
+                 background-color: rgb(202, 209, 16);
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="subcontainer1">subconatiner</div>
+            <div class="subcontainer2">subconatiner</div>
+            <div class="subcontainer3">subconatiner</div>
+            <div class="subcontainer4">subconatiner</div>
+            <div class="subcontainer5">subconatiner</div>
+            <div class="subcontainer6">subconatiner</div>
+            <div class="subcontainer7">subconatiner</div>
+            <div class="subcontainer8">subconatiner</div>
+        </div>
+    </body>
+</html>

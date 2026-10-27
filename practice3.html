@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+
+        .container{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 50px;
+            gap: 15px;
+            
+        }
+        .cards .card{
+            width: 250px;
+            height: 280px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 3px #0000009e;
+            border-color: black;
+            
+        }
+        
+.container h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+        .img img{
+            padding: 5px;
+            height: 140px;
+            width: 240px;
+            border-radius: 15px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            gap: 20px;
+        }
+        .headings{
+            padding-left: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .subheadings{
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            gap: 85px;
+        }
+        .star{
+             color: rgb(200, 167, 4);
+             font-size: 10px;
+        }
+        .ratings{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        h6{
+            font-weight: lighter;
+            color: rgb(27, 25, 25);
+        }
+         .arrow{
+            display: flex;
+            flex-direction: row;
+            gap: 7px;
+            position: relative;
+            left: 900px;
+            top: 30px;
+         }
+        .arrow .arrows{
+            font-size: 40px;
+            color: rgba(44, 44, 44, 0.888);
+            font-weight: lighter;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Trending</h1>
+        <div class="arrow">
+        <span class="arrows"><i class="ri-arrow-right-circle-line"></i>
+            <i class="ri-arrow-left-circle-line"></i>
+        </div>
+        </span>
+        <div class="cards">
+            <div class="card">
+                <div class="img">
+                   <img src="images/image.png">
+                </div>
+
+                <div class="text">
+                    <div class="headings">
+                        <h4>Mountain Hiking Tour</h4>
+                        <h6>Hiking Our | Stoke on Trent</h6>
+                    </div>
+                    <div class="subheadings">
+                        <div class="price">
+                            <h6>from</h6>
+                            <h2>957</h2>
+                            <h6>price may Vaires</h6>
+                        </div>
+                        <div class="ratings">
+                            <div class="stars">
+                            <span class="star"><i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill">
+                            <i class="ri-star-half-line"></i>
+                            <i class="ri-star-line"></i>
+                        </i></span>
+                            </div>
+                            <div class="rating">
+                                <h6>4.8(10)</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        </div>
+            <div class="card">
+                <div class="img">
+                   <img src="images/image.png">
+                </div>
+
+                <div class="text">
+                    <div class="headings">
+                        <h4>Mountain Treking Tour</h4>
+                        <h6>Treking And | Stoke on Trent</h6>
+                    </div>
+                    <div class="subheadings">
+                        <div class="price">
+                            <h6>from</h6>
+                            <h2>750</h2>
+                            <h6>price may Vaires</h6>
+                        </div>
+                        <div class="ratings">
+                            <div class="stars">
+                            <span class="star"><i class="ri-star-fill"></i>
+                            
+                        <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-line"></i>
+                     <i class="ri-star-half-line"></i>
+              <i class="ri-star-line"></i>
+                            </div>
+                            <div class="rating">
+                                <h6>4.7(22)</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        </div>
+            <div class="card">
+                <div class="img">
+                   <img src="images/image.png">
+                </div>
+
+                <div class="text">
+                    <div class="headings">
+                        <h4>Mountain Climbing Tour</h4>
+                        <h6>Climbing Our | Stoke on Trent</h6>
+                    </div>
+                    <div class="subheadings">
+                        <div class="price">
+                            <h6>from</h6>
+                            <h2>1500</h2>
+                            <h6>price may Vaires</h6>
+                        </div>
+                        <div class="ratings">
+                            <div class="stars">
+                            <span class="star"><i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <i class="ri-star-line"></i>
+                                 <i class="ri-star-line"></i>
+                            </span>
+                            </div>
+                            <div class="rating">
+                                <h6>4.2(200)</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        </div>
+    </div>
+    </div>
+</body>
+</html>
