@@ -1,0 +1,55 @@
+what is language? -> grammar 
+what is programming ? set of insts
+what is programming language ?
+
+client  -> translator -> Machine(binary)
+english ->     C | I   -> binary  java n js => both
+
+
+1. compiler vs interperter 
+whole        line by line
+
+languages
+1. Low                2. High
+machine friendly         Human friendly
+C language -> architecture
+
+
+Language Core
+
+
+let name = "Ayush"
+let roll = 12
+let percentage = 80.67%
+
+"AYUSH"  12 80.67% -> Literals | Constants
+= ? -> Operator -> are the symbols which are used to perform operations between operands
+a + b -> a, => operands + operator
+
+name roll percentage => variables -> a container which holds | store the data
+
+Rules of Variables -> Identifiers
+ 1. keywords X -> which have predefined meanings
+ 2. let 1name = "rahul" no numbers can be used in starting
+ 3. let @name = "rahul" no such symbols can be used in starting except _
+ 4. no space between varaible eg -> let first name = "Ayush"
+     instead of we follow naming convention
+     eg 
+        1. PascalCase
+        2. Snake_Case -> python
+        3. camelCase -> js
+
+
+    let vs const vs var
+
+    const -> fixed
+    let vs var 
+
+    2. when let and const is introduced in js? and let is introduced to replace the var. why var is replaced?
+    
+    Ans - In the early days of JavaScript, there was only one way of declaring variables and that was using the var keyword. 
+          A variable declared with var is defined throughout the program. One of the issues with using the var keyword was 
+          redeclaring a variable inside a block will also redeclare the variable outside the block. 
+
+          Variable declared by let cannot be redeclared and must be declared before use whereas variables declared with
+          var keyword are hoisted. 

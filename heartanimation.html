@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: 150px;
+        top: 100px;
+        padding: 25px;
+      }
+      .heart {
+        height: 150x;
+        width: 150px;
+        animation: beat 0.5s infinite linear alternate;
+      }
+      h5 {
+        font-size: 25;
+        color: red;
+      }
+      @keyframes beat {
+        0% {
+          transform: scale(0.9);
+        }
+
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img class="heart" src="images/image.png" />
+      <h5>Heart Beats 80 beats/min</h5>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        height: 300px;
+        border-color: black;
+      }
+      .subcontainer {
+        height: 90%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 7px;
+      }
+      .img {
+        width: 100%;
+        height: 70%;
+      }
+      .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+      }
+      .cardbody {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+      }
+      .cardbody .rate {
+        border-color: black;
+        border-radius: 3px;
+      }
+      .rate .star {
+        color: gold;
+        font-size: 25px;
+        background-color: gold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="subcontainer">
+        <div class="img">
+          <img src="images/image1.png" />
+        </div>
+        <div class="heading">
+          <h4>Data Scientist</h4>
+        </div>
+        <div class="cardbody">
+          <div class="rate">
+            <span class="star"><i class="ri-star-fill"></i></span
+            ><span>4.7</span>
+          </div>
+          <div class="review">
+            <span>377k ratings</span>
+          </div>
+          <div class="hours">
+            <span>39.4 hours</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
