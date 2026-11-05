@@ -53,3 +53,66 @@ Rules of Variables -> Identifiers
 
           Variable declared by let cannot be redeclared and must be declared before use whereas variables declared with
           var keyword are hoisted. 
+
+
+
+
+    german | japanese -> high 
+    ausbidung -> german -> german language -> training -> germany -> 4days practical job with stipend + 1/2 days college classes
+    thought -> Efforts -> outside india
+
+   freecodecamp -> js  
+
+1. Operators -> prepare questions for interview for fresher, a month experience, and a year.
+
+
+symbols -> operations on operands
+Types of Operators
+1. Arithmetic
+   + - X (/ vs %)
+2. Relational 
+    > < >= <= !=
+3. Comparative 
+   == vs ===
+4. Logical Opr
+   && || !
+
+and opr ?
+10>8  && 10>12 -> f
+
+T  && F -> F
+F  && F -> F
+F  && T -> F
+T  && T -> T
+
+OR ||
+T  || F -> T
+F  || F -> F
+F  || T -> T
+T  || T -> T
+NOT !
+10>8 -> true
+!(10>8) -> false
+
+5.Ternary Opr -> Conditional Statement 
+Conditional
+1.  Simple IF
+2.  IF -Else -> koi b ek condition work karegi
+3.  IF -Else-IF -> Ladder -> multiple conditions -> report Card Income Tax -> Electricity
+4.  IF{IF} -> Nested -> 
+5.  Switch Case -> break -> fall through
+6.  Ternary
+
+if(condtion){
+
+}else{
+    
+}
+let d = (condtion) ? "true":"false"
+
+
+1. 2 numbers which one is greater
+2. 3 numbers which one is greatest among three
+
+
+

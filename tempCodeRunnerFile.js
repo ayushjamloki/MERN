@@ -1,3 +1,5 @@
-console.log(x);
-// var x = 5;
-// console.log(x);
+if (a > b) {
+//   console.log("a is greater than b");
+// } else {
+//   console.log("b is the greater");
+// }
