@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        display: flex;
+        flex-direction: row;
+        background-color: #333;
+        color: #fff;
+      }
+      .logo {
+        padding: 10px;
+      }
+      .logo img {
+        width: 51px;
+        height: 50px;
+        position: relative;
+        left: 75px;
+      }
+      .name {
+        position: relative;
+        left: 400px;
+        top: 20px;
+      }
+      .search {
+        position: relative;
+        left: 700px;
+        top: 20px;
+      }
+      .search input[type="search"] {
+        padding-left: 30px;
+        border-radius: 5px;
+        border: none;
+        width: 450px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Logo" />
+      </div>
+      <div class="name">
+        <h3>City Name</h3>
+      </div>
+      <div class="search">
+        <input type="search" placeholder="Search..." />
+      </div>
+    </nav>
+    <div class="container"></div>
+  </body>
+</html>
